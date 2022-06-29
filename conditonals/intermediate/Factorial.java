@@ -1,0 +1,18 @@
+package com.conditionals.intermediate;
+
+import java.util.Scanner;
+
+
+public class Factorial
+{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Input the number: ");
+		int factorial = 1;
+		int number = sc.nextInt();
+		for (int i = number;i>1;i--){
+		    factorial = factorial * i;
+		}
+		System.out.println(factorial);
+	}
+}
