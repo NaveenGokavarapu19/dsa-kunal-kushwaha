@@ -13,7 +13,7 @@ class NumberOfPermutations{
         int r = sc.nextInt();
         int fact1 = 1;
         int fact2 = 1;
-        int com = 0;
+        int per = 0;
         
         for (int i = n;i>0;i--){
             fact1 = fact1 * i;
@@ -21,7 +21,7 @@ class NumberOfPermutations{
         for (int j = n- r;j>0;j--){
             fact2 = fact2 * j;
         }
-        com = Math.abs(fact1/fact2);
-        System.out.println(com);
+        per = Math.abs(fact1/fact2);
+        System.out.println(per);
     }
 }
