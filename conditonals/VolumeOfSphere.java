@@ -1,3 +1,5 @@
+package com.conditonals;
+
 import java.util.Scanner;
 import java.lang.Math;
 
